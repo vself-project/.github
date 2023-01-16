@@ -17,7 +17,7 @@ More specific information about vSelf project along with smart-contracts and ref
 ### Production (Mainnet)
 
 - [vSelf web application](https://vself.app)
-- [vSelf smart-contract](https://explorer.near.org/accounts/v2.event.vself.near) deployed to v3.event.vself.near
+- [vSelf smart-contract](https://explorer.near.org/accounts/v3.event.vself.near) deployed to v3.event.vself.near
 
 ## Synopsys
 
