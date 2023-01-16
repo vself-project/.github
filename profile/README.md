@@ -63,8 +63,8 @@ Our codebase is stored on GitHub, and consists of the following:
   1. DID and verifiable credentials registry
   1. GUN database / OrbitDB storage instances
 
-![](https://vself.app/system.png)
+![](https://testnet.vself.app/system.png)
 
-![](https://vself.app/legend.png)
+![](https://testnet.vself.app/legend.png)
 
 ZKP technology is an ivaluable buiding block for self-sovereign identity and we have been developing some practical applications of this tech. We are looking for the solution of proof-of-set-membership implementations. Our first iteration uses Bulletproofs which is well established zk-proof system without trusted setup (compared to some zkSNARKs). On top of Bulletproofs we build our R1CS circuit to prove set membership in zero-knowledge, so on-chain data doesn't reveal members identity. This is quite experimental and uses MiMC hash under the hood (as it has low multiplicative complexity and simple rust implementation). For the hash function we plan to consider modern ZK-friendly ones such as popular Poseidon and Reinforced Concrete (based on lookup arguments). For a constanst size accumulator we have options to explore in the near future: replacing explicit membership set with Merkle tree root (or even Verkle tree root). As for the proof system we consider Halo2 (zCash) also Bulletproof-based one, for even shorter proofs and lower verification costs.
