@@ -1,6 +1,6 @@
 # vSelf Project
 
-![](https://vself.app/vself.jpg)
+![](https://testnet.vself.app/vself.jpg)
 
 More specific information about vSelf project along with smart-contracts and reference documentation can be found in [vseld-dao](https://github.com/vself-project/vself-beta). Other parts of the project can be located in the following repositories:
 
