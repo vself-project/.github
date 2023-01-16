@@ -2,7 +2,7 @@
 
 ![](https://testnet.vself.app/vself.jpg)
 
-More specific information about vSelf project along with smart-contracts and reference documentation can be found in [vseld-dao](https://github.com/vself-project/vself-beta). Other parts of the project can be located in the following repositories:
+More specific information about vSelf project along with smart-contracts and reference documentation can be found in [vseld-dao](https://github.com/vself-project/vself-dao). Other parts of the project can be located in the following repositories:
 
 1. vSelf web application and API endpoints (in Beta) [vself-beta](https://github.com/vself-project/vself-beta)
 1. vSelf SDK and npm packkage (with ZKP tools) (proof-of-concept) [vstudio-metabuild](https://github.com/vself-project/vstudio-metabuild)
