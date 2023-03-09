@@ -1,4 +1,4 @@
-## vSelf is web3 identity platform for growth hacking and community engagement
+## vSelf helps brands turn customers into loyal vibrant community.
 ![](https://testnet.vself.app/vself.jpg)
 
 
@@ -67,8 +67,8 @@ app using QR-code, [analytics](https://vself-prod.web.app/dashboard)
 
 ## About
 
-vSelf helps brands turn customers into loyal vibrant community.
-We are a Community-as-a-Service platform that creates a trustful interaction channel between organizations and their customers. vSelf provides brands with easy-to-use tools to leverage Web3 data and elevate loyalty programs, customer relationship management, and digital marketing. Our solution includes a Web3 studio, which allows companies to issue and manage collections of digital certificates (SBTs and verifiable credentials) and an identity application for users to create their Web3 personas. vSelf makes next-generation community engagement accessible to a general audience. 
+vSelf is web3 identity platform for growth hacking and community engagement.
+We are focused on Community-as-a-Service tools witch creates a trustful interaction channel between organizations and their customers. vSelf provides brands with easy-to-use tools to leverage Web3 data and elevate loyalty programs, customer relationship management, and digital marketing. Our solution includes a Web3 studio, which allows companies to issue and manage collections of digital certificates (SBTs and verifiable credentials) and an identity application for users to create their Web3 personas. vSelf makes next-generation community engagement accessible to a general audience. 
 
 - Experienced team with a diverse background:  web3 development, computer science, tokenomics, gamification, product development, and customer behaviour.
 - MVP got supported by NEAR Foundation grant and is live on the NEAR mainnet.
