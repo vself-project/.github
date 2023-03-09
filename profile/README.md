@@ -112,6 +112,8 @@ Our codebase is stored on GitHub, and consists of the following:
   1. DID and verifiable credentials registry
   1. GUN database / OrbitDB storage instances
 
+
+![](https://github.com/vself-project/docs/blob/main/architecture.png)
 ![](https://testnet.vself.app/system.png)
 
 
