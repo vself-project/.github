@@ -37,18 +37,17 @@ mimc_hash(bigint left, bigint right) => Commitment
 prove_set_membership(Vec<Commitment> set, bigint secret, bigint salt) => MembershipProof
 verify_set_membership(Vec<Commitment> set, MembershipProof p) => bool
 ```
-### vSelf events API
+### vSelf events API endpoints
 
-Endpoints
-```js
 Claim SBT
+```js
 https://vself-prod.web.app/api/checkin?eventid='0000000000'&nearid='alice.testnet'&qr='test_string'
 ```
 Event metadata in JSON
 ```js
 http://vself-dev.web.app/api/event?eventid='0000000000'
 ```
-White list of upcomming events
+Upcomming events white list 
 ```js
 http://vself-dev.web.app/api/events => List of upcomming events
 ```
@@ -81,9 +80,13 @@ vRanda - public profile, where users can present their digital identity with tex
 Our goal is to bring the benefits of the blockchain world to the general public and make web3 products more inclusive and user-friendly.  
 
 ## Social media
+
 info@vself.app
+
 [Telergam](https://t.me/vself_townhall)
+
 [Linkedin](https://www.linkedin.com/company/vself/)
+
 [Twitter](https://twitter.com/vself_meta)
 
 ## Blueprints
