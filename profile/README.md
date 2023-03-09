@@ -47,9 +47,9 @@ verify_set_membership(Vec<Commitment> set, MembershipProof p) => bool
 ### vSelf API endpoints for SBT events
 
 Claim SBT
-```js
+``
 https://vself-prod.web.app/api/checkin?eventid='0000000000'&nearid='alice.near'&qr='test_string'
-```
+``
 Event metadata in JSON
 ```js
 http://vself-dev.web.app/api/event?eventid='0000000000'
