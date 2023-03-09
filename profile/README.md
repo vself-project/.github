@@ -6,30 +6,47 @@
 
 1. vSelf smart contracts [vseld-dao](https://github.com/vself-project/vself-dao)
 2. vSelf web application and API endpoints [vself-beta](https://github.com/vself-project/vself-beta)
-3. vSelf SDK based on zero-knowledge proofs [vstudio-metabuild](https://github.com/vself-project/vstudio-metabuild)
+3. vSelf npm package based on zero-knowledge proofs [vstudio-metabuild](https://github.com/vself-project/vstudio-metabuild)
 5. vSelf referance documentation [vseld-dao](https://github.com/vself-project/vself-dao)
 
-## Deployment status
+## Deployment 
 
 ### Staging (Testnet)
 
 - [vSelf web application](https://testnet.vself.app)
-- [vSelf smart-contract](https://explorer.testnet.near.org/accounts/events_v22.sergantche.testnet) deployed to events_v22.sergantche.testnet
+- [vSelf event smart contract](https://explorer.testnet.near.org/accounts/events_v22.sergantche.testnet) deployed at events_v29.sergantche.testnet
+- [vSelf community smart contract](https://explorer.testnet.near.org/accounts/communities_v6.sergantche.testnet) deployed at communities_v6.sergantche.testnet
 
 ### Production (Mainnet)
 
 - [vSelf web application](https://vself.app)
-- [vSelf smart-contract](https://explorer.near.org/accounts/v3.event.vself.near) deployed to v3.event.vself.near
+- [vSelf smart-contract](https://explorer.near.org/accounts/v3.event.vself.near) deployed at v3.event.vself.near
 
 ### Mobile 
 - [App Store](https://apps.apple.com/us/app/vself/id1631569446)
 - [Google Play](https://play.google.com/store/apps/details?id=com.VSelf.vselfapp&gl=US)
 
-## Synopsys
+### Intergation
+- [vSelf npm package](https://www.npmjs.com/package/@vself_project/shared-utils)
+- [vSelf testnet API](http://vself-dev.web.app/api/)
+- [vSelf mainnet API](http://vself-prod.web.app/api/)
 
-vSelf project was formed around the idea of a libertarian future where people are happy to coexist not only with other humans but with other sentient beings (including AIs) and, of course, mother nature. We believe that the time has come to start building a reliable interface between person and cyberspace, which will allow us to trust our robotic counterparts. For example, to manage our personal data and facilitate other aspects of our social and economic life.
+### Documentation
+- [Architecture overview](https://vself-project.gitbook.io/vself-project-documentation/v/technical-overview/)
+- [Functionality](https://vself-project.gitbook.io/vself-project-documentation/)
+- [Instructions](https://vself-project.gitbook.io/vself-project-documentation/v/instructions/)
+- [Architecture model](https://github.com/vself-project/vself-dao/tree/master/docs)
 
-The only thing we can rely on is the laws of physics. That brings cryptography and multiparty computation protocols to the table as the basis for the construction of self-sovereign systems. According to [cypherpunks manifesto](https://www.activism.net/cypherpunk/manifesto.html), it is enough for humanity’s needs to ensure that it doesn't lose its agency as well as remains in control.
+## About
+
+vSelf application allows to:
+- [Onboard to NEAR](https://vself-prod.web.app/onboard) 
+- [Create custom collection with SBTs](https://vself-prod.web.app/add)
+- Distribute SBTs from the collection trough [web application](https://vself-prod.web.app/dashboard) using claim link or trough mobile ([iOS](https://apps.apple.com/us/app/vself/id1631569446) & [Androind](https://play.google.com/store/apps/details?id=com.VSelf.vselfapp&gl=US))
+application using QR-code
+- [Check analytics](https://vself-prod.web.app/dashboard) 
+- [Create web3 user profile](https://vself-prod.web.app/vranda)
+- [Create community with zero-knowledge proofs membership protection](https://vself-prod.web.app/vstudio)
 
 ## Design Rationale
 
