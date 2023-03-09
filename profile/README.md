@@ -7,7 +7,12 @@
 1. vSelf smart contracts [vseld-dao](https://github.com/vself-project/vself-dao)
 2. vSelf web application and API endpoints [vself-beta](https://github.com/vself-project/vself-beta)
 3. vSelf npm package based on zero-knowledge proofs [vstudio-metabuild](https://github.com/vself-project/vstudio-metabuild)
-5. vSelf referance documentation [vseld-dao](https://github.com/vself-project/vself-dao)
+
+## Documentation
+- [Architecture overview](https://vself-project.gitbook.io/vself-project-documentation/v/technical-overview/)
+- [Functionality](https://vself-project.gitbook.io/vself-project-documentation/)
+- [Instructions](https://vself-project.gitbook.io/vself-project-documentation/v/instructions/)
+- [Architecture model](https://github.com/vself-project/vself-dao/tree/master/docs)
 
 ## Deployment 
 
@@ -26,7 +31,7 @@
 - [App Store](https://apps.apple.com/us/app/vself/id1631569446)
 - [Google Play](https://play.google.com/store/apps/details?id=com.VSelf.vselfapp&gl=US)
 
-### vSelf zkp SDK
+### vSelf zkp SDK for proof-of-membership
 [npm package](https://www.npmjs.com/package/@vself_project/shared-utils)
 ```js
 npm install @vself_project/shared-utils
@@ -37,7 +42,7 @@ mimc_hash(bigint left, bigint right) => Commitment
 prove_set_membership(Vec<Commitment> set, bigint secret, bigint salt) => MembershipProof
 verify_set_membership(Vec<Commitment> set, MembershipProof p) => bool
 ```
-### vSelf events API endpoints
+### vSelf API endpoints for SBT events
 
 Claim SBT
 ```js
@@ -49,14 +54,8 @@ http://vself-dev.web.app/api/event?eventid='0000000000'
 ```
 Upcomming events white list 
 ```js
-http://vself-dev.web.app/api/events => List of upcomming events
+http://vself-dev.web.app/api/events
 ```
-
-### Documentation
-- [Architecture overview](https://vself-project.gitbook.io/vself-project-documentation/v/technical-overview/)
-- [Functionality](https://vself-project.gitbook.io/vself-project-documentation/)
-- [Instructions](https://vself-project.gitbook.io/vself-project-documentation/v/instructions/)
-- [Architecture model](https://github.com/vself-project/vself-dao/tree/master/docs)
 
 ## Functionality
 
@@ -89,32 +88,6 @@ info@vself.app
 
 [Twitter](https://twitter.com/vself_meta)
 
-## Blueprints
-
-As we have already discussed what vSelf might look like eventually, in this section we will present our specific tech choices for the first product we are going to deliver. There are several resons and premises we based our architecture and tech choices off, let's see some. As we progress with design at every stage we try to keep it simple and rely only on open source software.
-
-The main risk we want to avoid is dependence on service providers who can disrupt or censor our services for some reason without our consent. So we made particular choices for our codebase and tech stack to mitigate this kind of threat.
-
-1. For the source of truth and governance / economic layer we have chosen NEAR technology as it's the best in class of carbon neutral scalable proof-of-stake blockchain.
-1. For the communication layer AND database solution we chose to use GunDB peer-to-peer graph database.
-1. For the large objects storage we are going to integrate different solutions (Google Storage, NEAR.Machina, Filecoin, Swarm).
-1. Open source tech like Kubernetes + Docker is used for the cloud orchestration.
-
-As we need to host our cloud services somewhere we currently use GCloud which poses kind of deplatforming threat. This can be addressed by incentivisation of cloud infrastructure providers and as well as making our cloud include more hosting providers with time.
-
-Our codebase is stored on GitHub, and consists of the following:
-
-- Cloud configuration, design documentation
-- vSelf smart contracts (business logic)
-- vSelf tooling (CLI) + TS/JS SDK for application developers
-- vSelf progressiwe web application / identity wallet / API service (Next.js + tRPC)
-- Dockerized vSelf node which contains proxy logic:
-  1. DID and verifiable credentials registry
-  1. GUN database / OrbitDB storage instances
-
+## System architecture
 
 ![](https://github.com/vself-project/docs/blob/main/architecture.png)
-![](https://testnet.vself.app/system.png)
-
-
-ZKP technology is an ivaluable buiding block for self-sovereign identity and we have been developing some practical applications of this tech. We are looking for the solution of proof-of-set-membership implementations. Our first iteration uses Bulletproofs which is well established zk-proof system without trusted setup (compared to some zkSNARKs). On top of Bulletproofs we build our R1CS circuit to prove set membership in zero-knowledge, so on-chain data doesn't reveal members identity. This is quite experimental and uses MiMC hash under the hood (as it has low multiplicative complexity and simple rust implementation). For the hash function we plan to consider modern ZK-friendly ones such as popular Poseidon and Reinforced Concrete (based on lookup arguments). For a constanst size accumulator we have options to explore in the near future: replacing explicit membership set with Merkle tree root (or even Verkle tree root). As for the proof system we consider Halo2 (zCash) also Bulletproof-based one, for even shorter proofs and lower verification costs.
