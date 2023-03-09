@@ -1,5 +1,6 @@
 # vSelf 
-## helps brands turn customers into loyal vibrant community
+### We help brands turn customers into loyal vibrant community
+
 ![](https://testnet.vself.app/vself.jpg)
 
 
