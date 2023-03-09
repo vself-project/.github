@@ -28,8 +28,7 @@
 
 ### Intergation
 - [vSelf npm package](https://www.npmjs.com/package/@vself_project/shared-utils)
-- [vSelf testnet API](http://vself-dev.web.app/api/)
-- [vSelf mainnet API](http://vself-prod.web.app/api/)
+- [vSelf API](http://vself-prod.web.app/api/)
 
 ### Documentation
 - [Architecture overview](https://vself-project.gitbook.io/vself-project-documentation/v/technical-overview/)
@@ -37,16 +36,14 @@
 - [Instructions](https://vself-project.gitbook.io/vself-project-documentation/v/instructions/)
 - [Architecture model](https://github.com/vself-project/vself-dao/tree/master/docs)
 
-## About
+## Functionality
 
 vSelf application allows to:
-- [Onboard to NEAR](https://vself-prod.web.app/onboard) 
-- [Create custom collection with SBTs](https://vself-prod.web.app/add)
-- Distribute SBTs from the collection trough [web application](https://vself-prod.web.app/dashboard) using claim link or trough mobile ([iOS](https://apps.apple.com/us/app/vself/id1631569446) & [Androind](https://play.google.com/store/apps/details?id=com.VSelf.vselfapp&gl=US))
-application using QR-code
-- [Check analytics](https://vself-prod.web.app/dashboard) 
-- [Create web3 user profile](https://vself-prod.web.app/vranda)
-- [Create community with zero-knowledge proofs membership protection](https://vself-prod.web.app/vstudio)
+- [Onboarding](https://vself-prod.web.app/onboard)  
+- Creation of the custom [collection with SBT](https://vself-prod.web.app/add) rewards, distribution rewards trough [web app](https://vself-prod.web.app/dashboard) using claim link or trough mobile ([iOS](https://apps.apple.com/us/app/vself/id1631569446) & [Androind](https://play.google.com/store/apps/details?id=com.VSelf.vselfapp&gl=US))
+app using QR-code, [analytics](https://vself-prod.web.app/dashboard) 
+- [User profile](https://vself-prod.web.app/vranda) with on-chain data storage
+- [Community toolkit](https://vself-prod.web.app/vstudio) with zero-knowledge proofs membership protection
 
 ## Design Rationale
 
