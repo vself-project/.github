@@ -34,8 +34,6 @@ npm install @vself_project/shared-utils
 
 ```js
 mimc_hash(bigint left, bigint right) => Commitment
-prove_mimc_preimage(bigint secret, bigint salt) => Proof
-verify_mimc_preimage(Commitment c, Proof p) => bool
 prove_set_membership(Vec<Commitment> set, bigint secret, bigint salt) => MembershipProof
 verify_set_membership(Vec<Commitment> set, MembershipProof p) => bool
 ```
@@ -43,8 +41,15 @@ verify_set_membership(Vec<Commitment> set, MembershipProof p) => bool
 
 Endpoints
 ```js
-https://vself-prod.web.app/api/checkin?eventid='0000000000'&nearid='alice.testnet'&qr='test_string' => Claim NFT
-http://vself-dev.web.app/api/event?eventid='0000000000' => Event metadata in JSON
+Claim SBT
+https://vself-prod.web.app/api/checkin?eventid='0000000000'&nearid='alice.testnet'&qr='test_string'
+```
+Event metadata in JSON
+```js
+http://vself-dev.web.app/api/event?eventid='0000000000'
+```
+White list of upcomming events
+```js
 http://vself-dev.web.app/api/events => List of upcomming events
 ```
 
@@ -65,7 +70,21 @@ app using QR-code, [analytics](https://vself-prod.web.app/dashboard)
 
 ## Overview
 
-//tbd
+Problem: vSelf focuses on the lack of real ownership and portability of the personal data and credentials for users and the dependence of businesses on big tech companies for data processing. We narrowed down this problem to the inefficiency of particular data pipelines in web3, where we see a gap between issued attributes for digital identities and the ability to utilize them as web3 CV for funding, gated access, or talent acquisition.
+
+Solution: What we propose is an IDaaS platform that allows users to manage their digital provenance on their side, making it composable and portable, and to connect with organizations in a trustful way. Companies, on their side, get a tool to mark any significant event of their interaction with users with a digital certificate and set up incentives.
+
+vSelf is in MVP stage that is live on NEAR mainnet. It is built for the workflow, where each digital certificate has a non-transferable NFT standard.  It has  several key elements:
+Web3 Studio - to set up and manage collections of NFT rewards that can be distributed through QR codes or claimable links. 
+Identity Wallet - web and mobile applications to collect and manage personal provenance of NFT rewards.
+vRanda - public profile, where users can present their digital identity with text description, links, and NFT rewards collections.  
+Our goal is to bring the benefits of the blockchain world to the general public and make web3 products more inclusive and user-friendly.  
+
+## Social media
+info@vself.app
+[Telergam](https://t.me/vself_townhall)
+[Linkedin](https://www.linkedin.com/company/vself/)
+[Twitter](https://twitter.com/vself_meta)
 
 ## Blueprints
 
@@ -92,6 +111,5 @@ Our codebase is stored on GitHub, and consists of the following:
 
 ![](https://testnet.vself.app/system.png)
 
-![](https://testnet.vself.app/legend.png)
 
 ZKP technology is an ivaluable buiding block for self-sovereign identity and we have been developing some practical applications of this tech. We are looking for the solution of proof-of-set-membership implementations. Our first iteration uses Bulletproofs which is well established zk-proof system without trusted setup (compared to some zkSNARKs). On top of Bulletproofs we build our R1CS circuit to prove set membership in zero-knowledge, so on-chain data doesn't reveal members identity. This is quite experimental and uses MiMC hash under the hood (as it has low multiplicative complexity and simple rust implementation). For the hash function we plan to consider modern ZK-friendly ones such as popular Poseidon and Reinforced Concrete (based on lookup arguments). For a constanst size accumulator we have options to explore in the near future: replacing explicit membership set with Merkle tree root (or even Verkle tree root). As for the proof system we consider Halo2 (zCash) also Bulletproof-based one, for even shorter proofs and lower verification costs.
