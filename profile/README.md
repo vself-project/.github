@@ -22,14 +22,15 @@
 - [vSelf web application](https://vself.app)
 - [vSelf smart-contract](https://explorer.near.org/accounts/v3.event.vself.near) deployed at v3.event.vself.near
 
-### Mobile 
+### Mobile apps
 - [App Store](https://apps.apple.com/us/app/vself/id1631569446)
 - [Google Play](https://play.google.com/store/apps/details?id=com.VSelf.vselfapp&gl=US)
 
 ### vSelf zkp SDK
-[vSelf npm package](https://www.npmjs.com/package/@vself_project/shared-utils)
-
-npm i @vself_project/shared-utils
+[npm package](https://www.npmjs.com/package/@vself_project/shared-utils)
+```js
+npm install @vself_project/shared-utils
+```
 
 ```js
 mimc_hash(bigint left, bigint right) => Commitment
@@ -38,8 +39,14 @@ verify_mimc_preimage(Commitment c, Proof p) => bool
 prove_set_membership(Vec<Commitment> set, bigint secret, bigint salt) => MembershipProof
 verify_set_membership(Vec<Commitment> set, MembershipProof p) => bool
 ```
+### vSelf events API
 
-- [vSelf API](http://vself-prod.web.app/api/)
+Endpoints
+```js
+https://vself-prod.web.app/api/checkin?eventid='0000000000'&nearid='alice.testnet'&qr='test_string' => Claim NFT
+http://vself-dev.web.app/api/event?eventid='0000000000' => Event metadata in JSON
+http://vself-dev.web.app/api/events => List of upcomming events
+```
 
 ### Documentation
 - [Architecture overview](https://vself-project.gitbook.io/vself-project-documentation/v/technical-overview/)
@@ -56,20 +63,9 @@ app using QR-code, [analytics](https://vself-prod.web.app/dashboard)
 - [User profile](https://vself-prod.web.app/vranda) with on-chain data storage
 - [Community toolkit](https://vself-prod.web.app/vstudio) with zero-knowledge proofs membership protection
 
-## Design Rationale
+## Overview
 
-Self-soveregnity and level of decentralization of the current generation of dApps are highly questionable, as Moxie Marlinspike has brilliantly demonstrated in [his piece](https://moxie.org/2022/01/07/web3-first-impressions.html). Many Web3 infrastructures are either prone to cancel culture or are politically centralized. The most successful dApp is still Satoshi's network, with others like Ethereum / Polkadot / NEAR building up momentum towards sovereignty and adoption.
-
-Below you can see a birds eye view on the whole vSelf system:
-
-1. (People) Community governance / legal => controls vSelf DAO and source code
-1. (Law) vSelf DAO contracts / documents => controls operational expenses, controls cloud setup
-1. (DevOps) vSelf Cloud => hosts vSelf services, delivers vSelf App
-1. (UI/UX) vSelf App => stores personal data and creates user experience
-
-This is probably the most generic setup for any dApp. In the beginning operational and tech desicionss are full responsibility of vSelf top level management, but this approach allows us to gradually evolve toward more political decentralization. as it allow us to make this DAO future compatible. We also understand that we have to be fully opensource and open to public scrutinity.
-
-The other important part which is our adherence to open standarts and guidlines developed by international community of experts. That's why we look closely at DID and VC data models, which we use and adapt for our specific use cases.
+//tbd
 
 ## Blueprints
 
