@@ -26,8 +26,19 @@
 - [App Store](https://apps.apple.com/us/app/vself/id1631569446)
 - [Google Play](https://play.google.com/store/apps/details?id=com.VSelf.vselfapp&gl=US)
 
-### Intergation
-- [vSelf npm package](https://www.npmjs.com/package/@vself_project/shared-utils)
+### vSelf zkp SDK
+[vSelf npm package](https://www.npmjs.com/package/@vself_project/shared-utils)
+
+npm i @vself_project/shared-utils
+
+```js
+mimc_hash(bigint left, bigint right) => Commitment
+prove_mimc_preimage(bigint secret, bigint salt) => Proof
+verify_mimc_preimage(Commitment c, Proof p) => bool
+prove_set_membership(Vec<Commitment> set, bigint secret, bigint salt) => MembershipProof
+verify_set_membership(Vec<Commitment> set, MembershipProof p) => bool
+```
+
 - [vSelf API](http://vself-prod.web.app/api/)
 
 ### Documentation
