@@ -2,10 +2,13 @@
 
 ![](https://testnet.vself.app/vself.jpg)
 
-More specific information about vSelf project along with smart-contracts and reference documentation can be found in [vseld-dao](https://github.com/vself-project/vself-dao). Other parts of the project can be located in the following repositories:
+More specific information about vSelf project along with smart-contracts and reference  can be found in . Other parts of the project can be located in the following repositories:
 
-1. vSelf web application and API endpoints (in Beta) [vself-beta](https://github.com/vself-project/vself-beta)
-1. vSelf SDK and npm packkage (with ZKP tools) (proof-of-concept) [vstudio-metabuild](https://github.com/vself-project/vstudio-metabuild)
+1. vSelf smart contracts [vseld-dao](https://github.com/vself-project/vself-dao)
+2. vSelf web application and API endpoints [vself-beta](https://github.com/vself-project/vself-beta)
+3. vSelf SDK based on zero-knowledge proofs [vstudio-metabuild](https://github.com/vself-project/vstudio-metabuild)
+4. vSelf mobile application is available in [App Store](https://apps.apple.com/us/app/vself/id1631569446) & [Google Play](https://play.google.com/store/apps/details?id=com.VSelf.vselfapp&gl=US)
+5. vSelf referance documentation [vseld-dao](https://github.com/vself-project/vself-dao)
 
 ## Deployment status
 
@@ -18,6 +21,10 @@ More specific information about vSelf project along with smart-contracts and ref
 
 - [vSelf web application](https://vself.app)
 - [vSelf smart-contract](https://explorer.near.org/accounts/v3.event.vself.near) deployed to v3.event.vself.near
+
+### Mobile 
+- [iOS](https://apps.apple.com/us/app/vself/id1631569446)
+- [Android](https://play.google.com/store/apps/details?id=com.VSelf.vselfapp&gl=US)
 
 ## Synopsys
 
