@@ -1,18 +1,19 @@
-# vSelf Project
-
+## vSelf
+Web3 identity platform for growth hacking and community engagement
 ![](https://testnet.vself.app/vself.jpg)
+
 
 ## Navigation
 
-1. vSelf smart contracts [vseld-dao](https://github.com/vself-project/vself-dao)
-2. vSelf web application and API endpoints [vself-beta](https://github.com/vself-project/vself-beta)
-3. vSelf npm package based on zero-knowledge proofs [vstudio-metabuild](https://github.com/vself-project/vstudio-metabuild)
+- vSelf smart contracts [vseld-dao](https://github.com/vself-project/vself-dao)
+- vSelf web application and API endpoints [vself-beta](https://github.com/vself-project/vself-beta)
+- vSelf npm package based on zero-knowledge proofs [vstudio-metabuild](https://github.com/vself-project/vstudio-metabuild)
 
 ## Documentation
 - [Architecture overview](https://vself-project.gitbook.io/vself-project-documentation/v/technical-overview/)
 - [Functionality](https://vself-project.gitbook.io/vself-project-documentation/)
 - [Instructions](https://vself-project.gitbook.io/vself-project-documentation/v/instructions/)
-- [Architecture model](https://github.com/vself-project/vself-dao/tree/master/docs)
+- [Architecture model](https://github.com/vself-project/docs)
 
 ## Deployment 
 
@@ -66,17 +67,17 @@ app using QR-code, [analytics](https://vself-prod.web.app/dashboard)
 - [User profile](https://vself-prod.web.app/vranda) with on-chain data storage
 - [Community toolkit](https://vself-prod.web.app/vstudio) with zero-knowledge proofs membership protection
 
-## Overview
+## About
 
-Problem: vSelf focuses on the lack of real ownership and portability of the personal data and credentials for users and the dependence of businesses on big tech companies for data processing. We narrowed down this problem to the inefficiency of particular data pipelines in web3, where we see a gap between issued attributes for digital identities and the ability to utilize them as web3 CV for funding, gated access, or talent acquisition.
+vSelf helps brands turn customers into loyal vibrant community.
+We are a Community-as-a-Service platform that creates a trustful interaction channel between organizations and their customers. vSelf provides brands with easy-to-use tools to leverage Web3 data and elevate loyalty programs, customer relationship management, and digital marketing. Our solution includes a Web3 studio, which allows companies to issue and manage collections of digital certificates (SBTs and verifiable credentials) and an identity application for users to create their Web3 personas. vSelf makes next-generation community engagement accessible to a general audience. 
 
-Solution: What we propose is an IDaaS platform that allows users to manage their digital provenance on their side, making it composable and portable, and to connect with organizations in a trustful way. Companies, on their side, get a tool to mark any significant event of their interaction with users with a digital certificate and set up incentives.
+- Experienced team with a diverse background:  web3 development, computer science, tokenomics, gamification, product development, and customer behaviour.
+- MVP got supported by NEAR Foundation grant and is live on the NEAR mainnet.
+- Partnered with 25 Web3 projects and issued 7500+ SBTs in pilot collaborations.
+- vSelf team won the Best Design Prize at MetaBUILD Hackathon and Bounty Prize NEARCON Hackathon
 
-vSelf is in MVP stage that is live on NEAR mainnet. It is built for the workflow, where each digital certificate has a non-transferable NFT standard.  It has  several key elements:
-Web3 Studio - to set up and manage collections of NFT rewards that can be distributed through QR codes or claimable links. 
-Identity Wallet - web and mobile applications to collect and manage personal provenance of NFT rewards.
-vRanda - public profile, where users can present their digital identity with text description, links, and NFT rewards collections.  
-Our goal is to bring the benefits of the blockchain world to the general public and make web3 products more inclusive and user-friendly.  
+
 
 ## Social media
 
