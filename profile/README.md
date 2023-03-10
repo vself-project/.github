@@ -7,7 +7,7 @@
 ## Navigation
 
 - vSelf smart contracts [vseld-dao](https://github.com/vself-project/vself-dao)
-- vSelf web application and API endpoints [vself-beta](https://github.com/vself-project/vself-beta)
+- vSelf web application & API endpoints for events [vself-beta](https://github.com/vself-project/vself-beta)
 - vSelf npm package based on zero-knowledge proofs [vstudio-metabuild](https://github.com/vself-project/vstudio-metabuild)
 
 ## Documentation
