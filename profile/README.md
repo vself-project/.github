@@ -46,7 +46,7 @@ verify_set_membership(Vec<Commitment> set, MembershipProof p) => bool
 ```
 ### vSelf API endpoints for SBT events
 
-Claim SBT mints SBT & returns reward metadata in JSON
+Mints SBT & returns reward metadata in JSON
 ```
 https://vself-prod.web.app/api/checkin?eventid='0000000000'&nearid='alice.near'&qr='test_string'
 ```
@@ -54,7 +54,7 @@ View event & returns event metadata in JSON
 ```
 http://vself-prod.web.app/api/event?eventid='0000000000'
 ```
-View all pcomming events from white list 
+View all upcomming events from white list 
 ```
 http://vself-prod.web.app/api/events
 ```
