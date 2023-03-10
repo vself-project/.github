@@ -28,6 +28,7 @@
 
 - [vSelf web application](https://vself.app)
 - [vSelf smart-contract](https://explorer.near.org/accounts/v3.event.vself.near) deployed at v3.event.vself.near
+- [vSelf community smart contract](https://explorer.near.org/accounts/communities_v1.sergantche_dev.near) deployed at communities_v1.sergantche_dev.near
 
 ### Mobile apps
 - [App Store](https://apps.apple.com/us/app/vself/id1631569446)
