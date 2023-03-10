@@ -35,7 +35,8 @@
 - [Google Play](https://play.google.com/store/apps/details?id=com.VSelf.vselfapp&gl=US)
 
 ### vSelf zkp SDK for proof-of-membership
-[npm package](https://www.npmjs.com/package/@vself_project/shared-utils)
+Package is availible at [npm registry](https://www.npmjs.com/package/@vself_project/shared-utils).
+
 ```js
 npm install @vself_project/shared-utils
 ```
