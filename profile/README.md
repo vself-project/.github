@@ -56,7 +56,7 @@ View event & returns event metadata in JSON
 ```
 http://vself-prod.web.app/api/event?eventid='0000000000'
 ```
-View all upcomming events from white list 
+View all upcomming events from white list in JSON
 ```
 http://vself-prod.web.app/api/events
 ```
