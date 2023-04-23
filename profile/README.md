@@ -5,7 +5,10 @@
 
 ## Overview
 vSelf is web3 platform for growth hacking and community engagement.
-We are focused on Community-as-a-Service tools witch creates a trustful interaction channel between organizations and their customers. vSelf provides brands with easy-to-use toolkit to leverage Web3 data and elevate loyalty programs, customer relationship management, and digital marketing. Our solution includes a Web3 studio, which allows companies to issue and manage collections of digital certificates (SBTs and verifiable credentials) and an identity application for users to create their Web3 personas. vSelf makes next-generation community engagement accessible to a general audience. 
+
+We are focused on Community-as-a-Service tools witch creates a trustful interaction channel between organizations and their customers. vSelf provides brands with easy-to-use toolkit to leverage Web3 data and elevate loyalty programs, customer relationship management, and digital marketing. 
+
+Our solution includes a Web3 studio, which allows companies to issue and manage collections of digital certificates (SBTs and verifiable credentials) and an identity application for users to create their Web3 personas. vSelf makes next-generation community engagement accessible to a general audience. 
 
 ## Navigation
 
