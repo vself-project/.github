@@ -76,13 +76,17 @@ View all upcomming events from white list in JSON
 http://vself-prod.web.app/api/events
 ```
 
+## System architecture
+
+![](https://github.com/vself-project/docs/blob/main/architecture.png)
+
 
 ## Achievements 
 
 - vSelf is Zero Knowledge Base Camp participant, Outlier Venture 2023. 
 - MVP got supported by NEAR Foundation grant and is live on the NEAR mainnet.
 - Partnered with 25 Web3 projects and issued 7500+ SBTs in pilot collaborations.
-- vSelf team won the Best Design Prize at MetaBUILD 2022 Hackathon and Bounty Prize NEARCON 2022 Hackathon
+- vSelf team won the Best Design Prize at MetaBUILD 2022 Hackathon & Bounty Prize NEARCON 2022 Hackathon
 
 
 
@@ -96,6 +100,4 @@ info@vself.app
 
 [Twitter](https://twitter.com/vself_meta)
 
-## System architecture
 
-![](https://github.com/vself-project/docs/blob/main/architecture.png)
