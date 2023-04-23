@@ -3,6 +3,9 @@
 
 ![](https://testnet.vself.app/vself.jpg)
 
+## Overview
+vSelf is web3 platform for growth hacking and community engagement.
+We are focused on Community-as-a-Service tools witch creates a trustful interaction channel between organizations and their customers. vSelf provides brands with easy-to-use toolkit to leverage Web3 data and elevate loyalty programs, customer relationship management, and digital marketing. Our solution includes a Web3 studio, which allows companies to issue and manage collections of digital certificates (SBTs and verifiable credentials) and an identity application for users to create their Web3 personas. vSelf makes next-generation community engagement accessible to a general audience. 
 
 ## Navigation
 
@@ -69,15 +72,12 @@ app using QR-code, [analytics](https://vself-prod.web.app/dashboard)
 - [User profile](https://vself-prod.web.app/vranda) with on-chain data storage
 - [Community toolkit](https://vself-prod.web.app/vstudio) with zero-knowledge proofs membership protection
 
-## About
+## Achievements 
 
-vSelf is web3 identity platform for growth hacking and community engagement.
-We are focused on Community-as-a-Service tools witch creates a trustful interaction channel between organizations and their customers. vSelf provides brands with easy-to-use tools to leverage Web3 data and elevate loyalty programs, customer relationship management, and digital marketing. Our solution includes a Web3 studio, which allows companies to issue and manage collections of digital certificates (SBTs and verifiable credentials) and an identity application for users to create their Web3 personas. vSelf makes next-generation community engagement accessible to a general audience. 
-
-- Experienced team with a diverse background:  web3 development, computer science, tokenomics, gamification, product development, and customer behaviour.
+- vSelf is Zero Knowledge Base Camp participant, Outlier Venture 2023. 
 - MVP got supported by NEAR Foundation grant and is live on the NEAR mainnet.
 - Partnered with 25 Web3 projects and issued 7500+ SBTs in pilot collaborations.
-- vSelf team won the Best Design Prize at MetaBUILD Hackathon and Bounty Prize NEARCON Hackathon
+- vSelf team won the Best Design Prize at MetaBUILD 2022 Hackathon and Bounty Prize NEARCON 2022 Hackathon
 
 
 
