@@ -21,9 +21,9 @@ app using QR-code, [analytics](https://vself-prod.web.app/dashboard)
 
 ## Navigation
 
-- vSelf smart contracts [vseld-dao](https://github.com/vself-project/vself-dao)
-- vSelf web application & API endpoints for events [vself-beta](https://github.com/vself-project/vself-beta)
-- vSelf npm package based on zero-knowledge proofs [vstudio-metabuild](https://github.com/vself-project/vstudio-metabuild)
+- vSelf smart contracts repo [vseld-dao](https://github.com/vself-project/vself-dao)
+- vSelf web application & API endpoints for events repo [vself-beta](https://github.com/vself-project/vself-beta)
+- vSelf npm package based on zero-knowledge proofs repo [vstudio-metabuild](https://github.com/vself-project/vstudio-metabuild)
 
 ## Documentation
 - [Architecture overview](https://vself-project.gitbook.io/vself-project-documentation/v/technical-overview/)
