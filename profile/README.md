@@ -10,6 +10,15 @@ We are focused on Community-as-a-Service tools witch creates a trustful interact
 
 Our solution includes a Web3 studio, which allows companies to issue and manage collections of digital certificates (SBTs and verifiable credentials) and an identity application for users to create their Web3 personas. vSelf makes next-generation community engagement accessible to a general audience. 
 
+## Functionality
+
+- NEAR [onboarding](https://vself-prod.web.app/onboard)  
+- Creation of the custom [collection with SBT](https://vself-prod.web.app/add) rewards, distribution rewards trough [web app](https://vself-prod.web.app/dashboard) using claim link or trough mobile ([iOS](https://apps.apple.com/us/app/vself/id1631569446) & [Androind](https://play.google.com/store/apps/details?id=com.VSelf.vselfapp&gl=US))
+app using QR-code, [analytics](https://vself-prod.web.app/dashboard) 
+- [User profile](https://vself-prod.web.app/vranda) with on-chain data storage
+- [Community toolkit](https://vself-prod.web.app/vstudio) with zero-knowledge proofs membership protection
+
+
 ## Navigation
 
 - vSelf smart contracts [vseld-dao](https://github.com/vself-project/vself-dao)
@@ -33,7 +42,7 @@ Our solution includes a Web3 studio, which allows companies to issue and manage 
 ### Production (Mainnet)
 
 - [vSelf web application](https://vself.app)
-- [vSelf smart-contract](https://explorer.near.org/accounts/v3.event.vself.near) deployed at v3.event.vself.near
+- [vSelf event smart contract](https://explorer.near.org/accounts/v3.event.vself.near) deployed at v3.event.vself.near
 - [vSelf community smart contract](https://explorer.near.org/accounts/communities_v1.sergantche_dev.near) deployed at communities_v1.sergantche_dev.near
 
 ### Mobile apps
@@ -67,13 +76,6 @@ View all upcomming events from white list in JSON
 http://vself-prod.web.app/api/events
 ```
 
-## Functionality
-
-- NEAR [onboarding](https://vself-prod.web.app/onboard)  
-- Creation of the custom [collection with SBT](https://vself-prod.web.app/add) rewards, distribution rewards trough [web app](https://vself-prod.web.app/dashboard) using claim link or trough mobile ([iOS](https://apps.apple.com/us/app/vself/id1631569446) & [Androind](https://play.google.com/store/apps/details?id=com.VSelf.vselfapp&gl=US))
-app using QR-code, [analytics](https://vself-prod.web.app/dashboard) 
-- [User profile](https://vself-prod.web.app/vranda) with on-chain data storage
-- [Community toolkit](https://vself-prod.web.app/vstudio) with zero-knowledge proofs membership protection
 
 ## Achievements 
 
