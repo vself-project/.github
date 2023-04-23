@@ -13,10 +13,10 @@ Our solution includes a Web3 studio, which allows companies to issue and manage 
 ## Functionality
 
 - NEAR [onboarding](https://vself-prod.web.app/onboard)  
-- Creation of the custom [collection with SBT](https://vself-prod.web.app/add) rewards, distribution rewards trough [web app](https://vself-prod.web.app/dashboard) using claim link or trough mobile ([iOS](https://apps.apple.com/us/app/vself/id1631569446) & [Androind](https://play.google.com/store/apps/details?id=com.VSelf.vselfapp&gl=US))
-app using QR-code, [analytics](https://vself-prod.web.app/dashboard) 
-- [User profile](https://vself-prod.web.app/vranda) with on-chain data storage
-- [Community toolkit](https://vself-prod.web.app/vstudio) with zero-knowledge proofs membership protection
+- Creation of the custom [collection with SBT](https://vself-prod.web.app/add) rewards, distribution rewards through [web app](https://vself-prod.web.app/dashboard) using claim link or through mobile ([iOS](https://apps.apple.com/us/app/vself/id1631569446) & [Androind](https://play.google.com/store/apps/details?id=com.VSelf.vselfapp&gl=US))
+app using QR-code, engagement [analytics](https://vself-prod.web.app/dashboard)
+- [Web3 user profile](https://vself-prod.web.app/vranda) with on-chain data storage
+- [Community toolkit](https://vself-prod.web.app/vstudio) with zero-knowledge proofs for membership protection
 
 
 ## Navigation
