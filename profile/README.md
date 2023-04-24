@@ -81,7 +81,7 @@ Here is the layers of vSelf system architecture.
 Full description of used components is available:
 - [Architecture overview](https://vself-project.gitbook.io/vself-project-documentation/v/technical-overview/architecture)
 - [MVP architecture](https://vself-project.gitbook.io/vself-project-documentation/v/technical-overview/)
-- [C4 model](https://github.com/vself-project/docs)
+- [C4 model](https://github.com/vself-project/docs#vself-architecture-c4-model)
 
 ![](https://github.com/vself-project/docs/blob/main/architecture-short.png)
 
