@@ -26,7 +26,7 @@ app using QR-code, engagement [analytics](https://vself-prod.web.app/dashboard)
 - vSelf npm package based on zero-knowledge proofs repo [vstudio-metabuild](https://github.com/vself-project/vstudio-metabuild)
 
 ## Documentation
-- [Architecture overview]([https://vself-project.gitbook.io/vself-project-documentation/v/technical-overview/](https://vself-project.gitbook.io/vself-project-documentation/v/technical-overview/architecture)
+- [Architecture overview](https://vself-project.gitbook.io/vself-project-documentation/v/technical-overview/architecture)
 - [Functionality](https://vself-project.gitbook.io/vself-project-documentation/)
 - [Instructions](https://vself-project.gitbook.io/vself-project-documentation/v/instructions/)
 - [Architecture model](https://github.com/vself-project/docs)
