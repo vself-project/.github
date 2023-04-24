@@ -31,6 +31,10 @@ app using QR-code, engagement [analytics](https://vself-prod.web.app/dashboard)
 - [Instructions](https://vself-project.gitbook.io/vself-project-documentation/v/instructions/)
 - [Architecture model](https://github.com/vself-project/docs)
 
+## User flow
+![](https://github.com/vself-project/docs/blob/main/238.png)
+
+
 ## Deployment 
 
 ### Staging (Testnet)
