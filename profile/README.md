@@ -4,7 +4,7 @@
 ![](https://testnet.vself.app/vself.jpg)
 
 ## Overview
-vSelf is web3 platform for growth hacking and community engagement.
+vSelf is Web3 platform for growth hacking and community engagement.
 
 We are focused on Community-as-a-Service tools witch creates a trustful interaction channel between organizations and their customers. vSelf provides brands with easy-to-use toolkit to leverage Web3 data and elevate loyalty programs, customer relationship management, and digital marketing. 
 
@@ -78,7 +78,7 @@ http://vself-prod.web.app/api/events
 
 ## System architecture
 
-![](https://github.com/vself-project/docs/blob/main/architecture.png)
+![](https://github.com/vself-project/docs/blob/main/architecture-short.png)
 
 
 ## Achievements 
