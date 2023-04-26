@@ -32,7 +32,9 @@ app using QR-code, engagement [analytics](https://vself-prod.web.app/dashboard)
 - [Architecture model](https://github.com/vself-project/docs)
 
 ## User flow
-![](https://github.com/vself-project/docs/blob/main/238.png)
+
+### SBT collections & Web3 profiles
+![](https://github.com/vself-project/docs/blob/main/UserFlowEvents.png)
 
 
 ## Deployment 
