@@ -36,6 +36,8 @@ app using QR-code, engagement [analytics](https://vself-prod.web.app/dashboard)
 ### SBT collections & Web3 profiles
 ![](https://github.com/vself-project/docs/blob/main/UserFlowEvents.png)
 
+### zkp-based community management 
+
 
 ## Deployment 
 
@@ -97,7 +99,7 @@ Full description of used components is available:
 - vSelf is Zero Knowledge Base Camp participant, Outlier Venture 2023. 
 - MVP got supported by NEAR Foundation grant and is live on the NEAR mainnet.
 - Partnered with 25 Web3 projects and issued 7500+ SBTs in pilot collaborations.
-- vSelf team won the Best Design Prize at MetaBUILD 2022 Hackathon & Bounty Prize NEARCON 2022 Hackathon
+- vSelf team won the Best Design Prize at MetaBUILD 2022 Hackathon & Bounty Prize NEARCON 2022 Hackathon.
 
 
 
