@@ -114,4 +114,6 @@ info@vself.app
 
 [Twitter](https://twitter.com/vself_meta)
 
+[Medium](https://medium.com/@vSelf_Project)
 
+[Instagram](https://www.instagram.com/vself_meta/)
