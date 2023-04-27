@@ -116,6 +116,4 @@ info@vself.app
 
 [Medium](https://medium.com/@vSelf_Project)
 
-[Medium](https://medium.com/@vSelf_Project)
-
 [Instagram](https://www.instagram.com/vself_meta/)
