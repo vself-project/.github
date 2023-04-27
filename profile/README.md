@@ -36,7 +36,8 @@ app using QR-code, engagement [analytics](https://vself-prod.web.app/dashboard)
 ### SBT collections & Web3 profiles
 ![](https://github.com/vself-project/docs/blob/main/UserFlowEvents.png)
 
-### zkp-based community management 
+### Zero-knowledge onboarding
+
 
 
 ## Deployment 
