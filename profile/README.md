@@ -37,7 +37,7 @@ app using QR-code, engagement [analytics](https://vself-prod.web.app/dashboard)
 ![](https://github.com/vself-project/docs/blob/main/UserFlowEvents.png)
 
 ### Zero-knowledge onboarding
-
+![](https://github.com/vself-project/docs/blob/main/UserFlowZKP.png)
 
 
 ## Deployment 
