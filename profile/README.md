@@ -45,7 +45,7 @@ app using QR-code, engagement [analytics](https://vself-prod.web.app/dashboard)
 ### Staging (Testnet)
 
 - [vSelf web application](https://testnet.vself.app)
-- [vSelf event smart contract](https://explorer.testnet.near.org/accounts/events_v31.sergantche.testnet) deployed at events_v31.sergantche.testnet
+- [vSelf event smart contract](https://explorer.testnet.near.org/accounts/events_v32.sergantche.testnet) deployed at events_v32.sergantche.testnet
 - [vSelf community smart contract](https://explorer.testnet.near.org/accounts/communities_v6.sergantche.testnet) deployed at communities_v6.sergantche.testnet
 
 ### Production (Mainnet)
