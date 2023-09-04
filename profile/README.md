@@ -58,7 +58,7 @@ app using QR-code, engagement [analytics](https://vself-prod.web.app/dashboard)
 
 ### Staging (Columbus Testnet)
 - [vSelf web application](https://brands.vself.app/)
-- [vSelf event smart contract](explorer)
+- [vSelf giveaway smart contract](https://suite.camino.network/explorer/columbus/c-chain/address/0x37d0924289a66687d7624963aa4f4bc2da1af36e)
 
 ### Mobile apps
 - [App Store](https://apps.apple.com/us/app/vself/id1631569446)
