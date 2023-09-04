@@ -24,6 +24,7 @@ app using QR-code, engagement [analytics](https://vself-prod.web.app/dashboard)
 - vSelf smart contracts repo [vseld-dao](https://github.com/vself-project/vself-dao)
 - vSelf web application & API endpoints for events repo [vself-beta](https://github.com/vself-project/vself-beta)
 - vSelf npm package based on zero-knowledge proofs repo [vstudio-metabuild](https://github.com/vself-project/vstudio-metabuild)
+- vSelf web application for brands repo [vself-brands](https://github.com/vself-project/vself-brands)
 
 ## Documentation
 - [Architecture overview](https://vself-project.gitbook.io/vself-project-documentation/v/technical-overview/architecture)
