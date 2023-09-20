@@ -13,19 +13,19 @@ Our solution includes a Web3 studio, which allows companies to issue and manage 
 ## Functionality
 
 - NEAR [onboarding](https://vself-prod.web.app/onboard)  
-- Creation of the custom [collection with NEAR SBT](https://vself-prod.web.app/add) rewards, distribution rewards through [web app](https://vself-prod.web.app/dashboard) using claim link or through mobile ([iOS](https://apps.apple.com/us/app/vself/id1631569446) & [Androind](https://play.google.com/store/apps/details?id=com.VSelf.vselfapp&gl=US))
+- Creation of the custom [collection with NEAR SBT or NFT](https://vself-prod.web.app/add) rewards, distribution rewards through [web app](https://vself-prod.web.app/dashboard) using claim link or through mobile ([iOS](https://apps.apple.com/us/app/vself/id1631569446) & [Androind](https://play.google.com/store/apps/details?id=com.VSelf.vselfapp&gl=US))
 app using QR-code, engagement [analytics](https://vself-prod.web.app/dashboard)
 - [Web3 user profile](https://vself-prod.web.app/vranda) with NEAR on-chain data storage
 - [Community toolkit](https://vself-prod.web.app/vstudio) with zero-knowledge proofs for membership protection
 - vSelf for brands: setting up [Camino SBT giveaways](https://brands.vself.app/add) and distribution rewards through [web app](https://brands.vself.app/dashboard)
 
 
-## Navigation
+## Repositories
 
-- vSelf smart contracts repo [vseld-dao](https://github.com/vself-project/vself-dao)
-- vSelf web application & API endpoints for events repo [vself-beta](https://github.com/vself-project/vself-beta)
-- vSelf npm package based on zero-knowledge proofs repo [vstudio-metabuild](https://github.com/vself-project/vstudio-metabuild)
-- vSelf web application for brands repo [vself-brands](https://github.com/vself-project/vself-brands)
+- vSelf smart contracts [vseld-dao](https://github.com/vself-project/vself-dao)
+- vSelf web application & API endpoints [vself-beta](https://github.com/vself-project/vself-beta)
+- vSelf npm package based on zero-knowledge proofs [vstudio-metabuild](https://github.com/vself-project/vstudio-metabuild)
+- vSelf web application for brands [vself-brands](https://github.com/vself-project/vself-brands)
 
 ## Documentation
 - [Architecture overview](https://vself-project.gitbook.io/vself-project-documentation/v/technical-overview/architecture)
