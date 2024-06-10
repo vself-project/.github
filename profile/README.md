@@ -112,8 +112,9 @@ Full description of used components is available:
 
 ## Achievements 
 
-- vSelf is Zero Knowledge Base Camp participant, Outlier Venture 2023. 
-- MVP got supported by NEAR Foundation grant and is live on the NEAR mainnet.
+- vSelf is Zero Knowledge Base Camp participant, Outlier Venture 2023.
+- MVP on TON mainnet is supported by TON acceleration program (Q1 2024).
+- Prototype was supported by NEAR Foundation grant and is live on the NEAR mainnet.
 - Partnered with 25 Web3 projects and issued 7500+ SBTs in pilot collaborations.
 - vSelf team won the Best Design Prize at MetaBUILD 2022 Hackathon & Bounty Prize NEARCON 2022 Hackathon.
 
@@ -123,7 +124,7 @@ Full description of used components is available:
 
 info@vself.app
 
-[Telergam](https://t.me/vself_townhall)
+[Telergam](https://t.me/vselfmeta)
 
 [Linkedin](https://www.linkedin.com/company/vself/)
 
