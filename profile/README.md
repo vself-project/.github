@@ -15,14 +15,13 @@ Key features:
 - **Native Telegram Integration:** One of the key focuses is Telegram, where the majority of community management functions are integrated into a single bot. This simplifies the interface between users and the platform, enhancing user experience and engagement.
 
 ## Functionality
-
-- NEAR [onboarding](https://vself-prod.web.app/onboard)  
-- Creation of the custom [collection with NEAR SBT or NFT](https://vself-prod.web.app/add) rewards, distribution rewards through [web app](https://vself-prod.web.app/dashboard) using claim link or through mobile ([iOS](https://apps.apple.com/us/app/vself/id1631569446) & [Androind](https://play.google.com/store/apps/details?id=com.VSelf.vselfapp&gl=US))
-app using QR-code, engagement [analytics](https://vself-prod.web.app/dashboard)
-- [Web3 user profile](https://vself-prod.web.app/vranda) with NEAR on-chain data storage
-- [Community toolkit](https://vself-prod.web.app/vstudio) with zero-knowledge proofs for membership protection
+- Creation of the custom [campaigns with SBT or NFT rewards on TON, NEAR, or Camino networks](https://vself.app/collection/create), distribution rewards through 
+web app using claim link or QR-code, engagement analytics
+- Telegram [vSelf Bot](https://t.me/vself_bot)
+-  Web3 user profile with on-chain data statistics
+- [Community toolkit](https://vself.app/vstudio) with zero-knowledge proofs for membership protection
 - vSelf for brands: setting up [Camino SBT giveaways](https://brands.vself.app/add) and distribution rewards through [web app](https://brands.vself.app/dashboard)
-
+- NEAR [onboarding](https://vself-prod.web.app/onboard)  
 
 ## Repositories
 
