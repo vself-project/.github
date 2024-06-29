@@ -5,11 +5,14 @@
 
 
 ## Overview
-vSelf is Web3 platform for growth hacking and community engagement.
+vSelf is a Web3 Community-as-a-Service platform with tools to boost engagement and p2p interaction. It helps brands host and tokenize their communities on Telegram and socials, unifying omnichannel interaction and bringing zero-party data to one place. vSelf provides gamification tools for exciting user quests, improved retention, and first-hand performance analytics.
 
-We are focused on Community-as-a-Service tools witch creates a trustful interaction channel between organizations and their customers. vSelf provides brands with easy-to-use toolkit to leverage Web3 data and elevate loyalty programs, customer relationship management, and digital marketing. 
+Key features:
 
-Our solution includes a Web3 studio, which allows companies to issue and manage collections of digital certificates (SBTs and verifiable credentials) and an identity application for users to create their Web3 personas. vSelf makes next-generation community engagement accessible to a general audience. 
+- **Customizable Campaign Management:** Clients can set up and customize their gamified campaigns through vSelf, and engage directly with their communities hosted on platforms like Telegram and other social media channels.
+- **Interactive Tools:** The platform includes tools to construct engaging mini-games, quizzes, and tokenized rewards, creating a dynamic and exciting community experience.
+- **Integrated CRM:** Under the hood, a powerful CRM system allows businesses to gather and analyze information, improving data integrity and targeting precision.
+- **Native Telegram Integration:** One of the key focuses is Telegram, where the majority of community management functions are integrated into a single bot. This simplifies the interface between users and the platform, enhancing user experience and engagement.
 
 ## Functionality
 
