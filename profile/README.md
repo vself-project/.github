@@ -1,7 +1,8 @@
 # vSelf 
 ### We help brands turn customers into loyal vibrant community
 
-![](https://testnet.vself.app/vself.jpg)
+<img width="1150" alt="Screenshot 2024-06-29 at 21 34 54" src="https://github.com/vself-project/.github/assets/8280427/0ea40aed-58ae-489a-9a09-bc5f6fc862db">
+
 
 ## Overview
 vSelf is Web3 platform for growth hacking and community engagement.
