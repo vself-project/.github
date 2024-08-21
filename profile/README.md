@@ -14,21 +14,18 @@ Key features:
 - **Integrated CRM:** Under the hood, a powerful CRM system allows businesses to gather and analyze information, improving data integrity and targeting precision.
 - **Native Telegram Integration:** One of the key focuses is Telegram, where the majority of community management functions are integrated into a single bot. This simplifies the interface between users and the platform, enhancing user experience and engagement.
 
-## Functionality
-- Creation of the custom [campaigns with SBT or NFT rewards on TON, NEAR, or Camino networks](https://vself.app/collection/create), distribution rewards through 
+## Features
+- Creation of the custom [campaigns with SBT or NFT rewards on TON, NEAR, or Camino networks](https://vself.app/collection/create), distribution of rewards through 
 web app using claim link or QR-code, engagement analytics
 - Telegram [vSelf Bot](https://t.me/vself_bot)
--  Web3 user profile with on-chain data statistics
-- [Community toolkit](https://vself.app/vstudio) with zero-knowledge proofs for membership protection
-- vSelf for brands: setting up [Camino SBT giveaways](https://brands.vself.app/add) and distribution rewards through [web app](https://brands.vself.app/dashboard)
-- NEAR [onboarding](https://vself-prod.web.app/onboard)  
+
 
 ## Repositories
 
 - vSelf smart contracts [vseld-dao](https://github.com/vself-project/vself-dao)
 - vSelf web application & API endpoints [vself-beta](https://github.com/vself-project/vself-beta)
 - vSelf npm package based on zero-knowledge proofs [vstudio-metabuild](https://github.com/vself-project/vstudio-metabuild)
-- vSelf web application for brands [vself-brands](https://github.com/vself-project/vself-brands)
+- vSelf web application for Web2.5 brands [vself-brands](https://github.com/vself-project/vself-brands)
 
 ## Documentation
 - [Architecture overview](https://vself-project.gitbook.io/vself-project-documentation/v/technical-overview/architecture)
@@ -43,7 +40,6 @@ Full description of used components is available:
 - [MVP architecture](https://vself-project.gitbook.io/vself-project-documentation/v/technical-overview/)
 - [C4 model](https://github.com/vself-project/docs#vself-architecture-c4-model)
 
-![](https://github.com/vself-project/docs/blob/main/architecture-short.png)
 
 
 ## Achievements 
@@ -53,7 +49,6 @@ Full description of used components is available:
 - Prototype was supported by NEAR Foundation grant and is live on the NEAR mainnet.
 - Partnered with 25 Web3 projects and issued 7500+ SBTs in pilot collaborations.
 - vSelf team won the Best Design Prize at MetaBUILD 2022 Hackathon & Bounty Prize NEARCON 2022 Hackathon.
-
 
 
 ## Social media
