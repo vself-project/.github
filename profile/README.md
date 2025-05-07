@@ -1,7 +1,8 @@
 # vSelf 
 ### vSelf is a Web3 Marketing Assistant:
 a Telegram-native platform that helps you turn followers into active community members through gamified engagement, automated content distribution, tokenized rewards, and data-driven insights.
-<img width="1150" alt="vSelf Web3 Marketing Assitant" src="[https://github.com/vself-project/.github/assets/8280427/0ea40aed-58ae-489a-9a09-bc5f6fc862db](https://github.com/user-attachments/assets/312605f3-aea7-43e5-91c6-e476cd8db687))">
+![1](https://github.com/user-attachments/assets/c49c2127-e44f-47e8-9434-e206e838b837)
+
 
 
 ## Overview
